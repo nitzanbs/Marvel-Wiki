@@ -1,0 +1,27 @@
+.vid-3x4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1{
+    color: #ff0000;
+    font-size: 18px;
+    background-color: rgb(211, 229, 245);
+    opacity: 90%;
+}
+.p1{
+    background-color: rgb(211, 229, 245);
+    opacity: 90%;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    text-shadow:  1px 1px 3px  red;
+}
+
+@media (max-width: 600px) {
+    .vid-3x4{
+    
+        flex-direction: column;
+    }
+  }

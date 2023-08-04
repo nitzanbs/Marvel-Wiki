@@ -1,0 +1,32 @@
+
+.p2{
+    font-size: 18px;
+    background-color: rgb(19, 60, 142);
+    text-align: center;
+    color: rgb(150, 8, 8);
+    font-weight: bold;
+
+}
+
+
+.poster-con{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1{
+    background-color: rgb(211, 229, 245);
+    opacity: 90%;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    text-shadow:  1px 1px 3px  red;
+}
+
+@media (max-width: 600px) {
+    .poster-con{
+        flex-direction: column;
+    }
+  }
