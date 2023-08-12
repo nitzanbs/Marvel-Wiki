@@ -14,15 +14,27 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: space-evenly;
+    row-gap: 5vh;
 }
 
-h1{
-    background-color: rgb(0, 0, 0);
-    opacity: 90%;
+.MinPoster:hover{
+    animation:PosterGlow 0.7s ;
+
+}
+@keyframes PosterGlow{
+    0% {transform: rotatey(0deg);}
+    100% {transform: rotatey(360deg)}
+}
+
+.h-mov{
+    background-color: rgba(30, 29, 29, 0.850);
     font-size: 40px;
     display: block;
     text-align: center;
     text-shadow:  1px 1px 3px  red;
+    line-height: 8vh;
+    color: black;
 }
 
 @media (max-width: 600px) {

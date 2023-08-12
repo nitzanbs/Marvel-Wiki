@@ -57,6 +57,19 @@ body{
  .navbar-right {
   float: right;
  }
+ .logoAn{
+  animation:logo3D-Spin 2s ;
+  animation-iteration-count: 1;
+
+ }
+
+ @keyframes logo3D-Spin{
+  0%{}
+
+  100%{transform: rotateX(360deg) rotate(360deg) rotateY(360deg);}
+
+
+ }
  
  @media screen and (max-width: 600px) {
   .navbar a {
@@ -70,19 +83,18 @@ body{
   }
  }
 
-h1{
-    background-color: rgb(30, 29, 29);
-    opacity: 90%;
+.h-home{
+    background-color: rgba(30, 29, 29, 0.850);
     font-size: 40px;
     display: block;
     text-align: center;
     text-shadow:  1px 1px 3px  red;
+    color: rgb(24, 24, 24);
 }
 
 .box-home{
-    background-color: rgb(30, 29, 29);
-    opacity: 90%;
-    color: #ffffff;
+    background-color: rgba(30, 29, 29, 0.850);
+    color: #dbd7d7;
     text-align: center;
 }
 .vid{
@@ -116,6 +128,7 @@ h1{
   
   .footer-basic ul a:hover {
     opacity:1;
+    color: #fff;
   }
   
   .footer-basic .social {
@@ -138,7 +151,7 @@ h1{
   }
   
   .footer-basic .social > a:hover {
-    opacity:0.9;
+    opacity:0.4;
   }
   
   .footer-basic .copyright {

@@ -2,23 +2,47 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    row-gap: 5vh;
 }
 
 h1{
-    color: #ff0000;
+    color: #9b0303;
     font-size: 18px;
-    background-color: rgb(0, 0, 0);
-    opacity: 90%;
+    background-color: rgba(0, 0, 0, 0.850);
     background-size: 7ch;
+    text-align: center;
+    font-weight: bold;
 }
-.p1{
-    background-color: rgb(0, 0, 0);
-    opacity: 90%;
+.h-vid{
+    background-color: rgba(30, 29, 29, 0.850);
     font-size: 40px;
     display: block;
     text-align: center;
     text-shadow:  1px 1px 3px  red;
+    line-height: 8vh;
+    color: black;
+
 }
+.vid-bg{
+    background-color: black;
+    color: #ff0000;
+    font-size: 18px;
+    background-size: 7ch;
+    line-height: 1vh;
+}
+
+.vid-bg:hover{
+    animation: BgGlow 0.7s;
+
+   
+
+}
+
+@keyframes BgGlow{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
 
 @media (max-width: 600px) {
     .vid-3x4{
