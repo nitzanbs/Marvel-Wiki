@@ -18,6 +18,10 @@
     row-gap: 5vh;
 }
 
+
+.MinPoster{
+box-shadow: 5px 2px 2px  rgb(217, 211, 211);
+}
 .MinPoster:hover{
     animation:PosterGlow 0.7s ;
 
@@ -35,6 +39,7 @@
     text-shadow:  1px 1px 3px  red;
     line-height: 8vh;
     color: black;
+    font-weight: bold;
 }
 
 @media (max-width: 600px) {

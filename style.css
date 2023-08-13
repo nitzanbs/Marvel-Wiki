@@ -84,12 +84,14 @@ body{
  }
 
 .h-home{
-    background-color: rgba(30, 29, 29, 0.850);
-    font-size: 40px;
-    display: block;
-    text-align: center;
-    text-shadow:  1px 1px 3px  red;
-    color: rgb(24, 24, 24);
+  background-color: rgba(30, 29, 29, 0.850);
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  text-shadow:  1px 1px 3px  red;
+  line-height: 8vh;
+  color: black;
+  font-weight: bold;
 }
 
 .box-home{

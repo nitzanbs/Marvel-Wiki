@@ -8,7 +8,6 @@
 h1{
     color: #9b0303;
     font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.850);
     background-size: 7ch;
     text-align: center;
     font-weight: bold;
@@ -21,9 +20,10 @@ h1{
     text-shadow:  1px 1px 3px  red;
     line-height: 8vh;
     color: black;
+    font-weight: bold;
 
 }
-.vid-bg{
+.vid-bg {
     background-color: black;
     color: #ff0000;
     font-size: 18px;
@@ -32,15 +32,32 @@ h1{
 }
 
 .vid-bg:hover{
-    animation: BgGlow 0.7s;
+    animation: BgGlow 0.2s;
+    animation-fill-mode: forwards;
+    
+
+
 
    
 
 }
 
-@keyframes BgGlow{
+ /* @keyframes BgTurn{
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
+}  */
+@keyframes BgGlow{
+    0%   {box-shadow: 0px 0px 0px 0px   whitesmoke;}
+    15%  {box-shadow: 1px 1px 3px 3px   whitesmoke;}
+    30%  {box-shadow: 2px 2px 6px 6px   whitesmoke;}
+    45%  {box-shadow: 3px 3px 9px 9px   whitesmoke;}
+    60%  {box-shadow: 4px 4px 10px 10px whitesmoke;}
+    75%  {box-shadow: 5px 5px 13px 13px whitesmoke;}
+    90%  {box-shadow: 6px 6px 15px 15px whitesmoke;}
+    100% {box-shadow: 7px 7px 17px 17px whitesmoke;}
+
+
+
 }
 
 
